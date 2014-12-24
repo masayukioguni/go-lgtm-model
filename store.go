@@ -6,7 +6,7 @@ import (
 )
 
 type Image struct {
-	Name string `bson:"name,omitempty" json:"name"`
+	Name string `bson:"Name,omitempty" json:"name"`
 }
 
 type Store struct {
